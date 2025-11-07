@@ -1,1 +1,2 @@
 # Posture-and-Ergonomics-Monitoring-for-Health-Intervention
+Poor posture and bad ergonomics during daily activities especially long hours of sitting or working on computers can lead to neck pain, back pain and other musculoskeletal disorder. The project aims to monitorand correct user posture in real time using computer vision and sensor based techiniques, providing health intervention feedback to promote better ergonomics and long term well being.
