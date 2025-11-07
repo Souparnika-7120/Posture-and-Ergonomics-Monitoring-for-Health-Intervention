@@ -16,11 +16,18 @@ KEY FEATURES.
 5. Health tips and ergonomics recommendations.
 
 TECHNOLOGIES USED 
+
 1.PROGRAMMING LANGUAGE:- Python
+
 2.Implementation Tool:- MATLAB/GOOGLE COLAB 
+
 3.Libraries- OpenCV,Mediapipe,TensorFlow/PyTorch,NumPy,Pandas,Matplotlib
+
 4.Interface:- Web/Mobile dashboard for feedback visualization.
 
+
 WORKING PRINCIPLE 
+
+
 The system works by continuously monitoring the users posture using either a camera or body mounted sensors. The camera based approach uses computer vision techiniques to detect key body landmarks such as shoulders, neck and spine alignment while sensors(like MPU6050) to measure body angles and orientation. The captured data is processed to extract relevant features that represent the users sitting or standing posture. A classification model or threshold based logic is then applied to determine whether the posture is correct or incorrect. When an improper posture is detected and sustained for a predefined duration, the system generates an alert such as a sound,vibration or on-screen notification to remind the user to adjust their position.
 Simultaneiusly, the posture data is logged to analyze long term bahaviour and geenrate health insights, The real time feedback loop helps users develop better ergonomics habits and reduces the risk of posture related health problems.
